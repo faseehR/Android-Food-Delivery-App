@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "352699609979",
+    "project_id": "foodx-b56ff",
+    "storage_bucket": "foodx-b56ff.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352699609979:android:bd07675d7eae7b8c9e43de",
+        "android_client_info": {
+          "package_name": "com.example.foodx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL2ZN6Lw2kq-DfcftVyE2RNpzSgC8IbHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

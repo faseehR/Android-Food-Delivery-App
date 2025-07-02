@@ -1,0 +1,46 @@
+<!-- res/layout/activity_vendor_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:backgroundTint="#FFFFFF">
+
+
+    <!-- Buttons for Add New Item and Current Orders -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center">
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search items..."
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:background="@android:drawable/edit_text"
+            android:drawableLeft="@android:drawable/ic_menu_search" />
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnViewCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Cart"/>
+    <!-- RecyclerView to display item list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        />
+
+</LinearLayout>
